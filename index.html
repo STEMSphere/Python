@@ -23,6 +23,22 @@
       padding: 2em;
     }
 
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      margin: 2em 0;
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
     footer {
       font-size: 0.8em;
       color: #666;
@@ -43,6 +59,14 @@
   <main>
     <h2>Why Learn Python with Us?</h2>
     <p>Our program is tailored for real transformation. Whether you’re new to coding or refining your skills, we simplify complex ideas, spark curiosity, and track measurable growth.</p>
+
+    <h3>Program Overview</h3>
+    <div class="video-wrapper">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+        title="Python Mastery Overview" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen></iframe>
+    </div>
 
     <h3>Upcoming Modules</h3>
     <ul>
